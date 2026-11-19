@@ -2,6 +2,7 @@
 
 Website pusat laporan barang hilang dan ditemukan untuk lingkungan Universitas Udayana.
 Dibuat untuk TecFest 2026 divisi Software Engineering (tema: Campus Solution Sprint).
+Seluruh kode website berada di folder `lost-found-udayana/`.
 
 ## Masalah yang diselesaikan
 Informasi barang hilang dan ditemukan tersebar di grup WhatsApp, mudah tertimbun, dan tidak
@@ -22,11 +23,12 @@ menjangkau civitas fakultas lain. Website ini menyatukannya dalam satu tempat ya
 HTML, CSS, JavaScript biasa, PHP native (PDO), MySQL. Tanpa framework dan tanpa Composer.
 
 ## Cara menjalankan (Laragon)
-1. Salin folder proyek ke `C:\laragon\www\lost-found-udayana\`.
-2. Start All di Laragon.
-3. Buka `http://localhost/phpmyadmin`, lalu Import `database.sql`.
-4. Jika perlu, sesuaikan `config.php` (DB_USER, DB_PASS).
-5. Buka `http://localhost/lost-found-udayana/`.
+1. Salin isi folder `lost-found-udayana/` ke `C:\laragon\www\lost-found-udayana\`.
+2. Salin folder proyek ke `C:\laragon\www\lost-found-udayana\`.
+3. Start All di Laragon.
+4. Buka `http://localhost/phpmyadmin`, lalu Import `database.sql`.
+5. Jika perlu, sesuaikan `config.php` (DB_USER, DB_PASS).
+6. Buka `http://localhost/lost-found-udayana/`.
 
 ## Membuat akun admin
 1. Daftar akun biasa lewat halaman Daftar.
